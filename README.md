@@ -75,3 +75,8 @@ print(result)
 print(cached_by_redis(key))
 # Output 'expire: hello'
 ```
+
+## Thanks
+
+- [Toapi](https://github.com/gaojiuli/toapi)
+- [aiocache](https://github.com/argaen/aiocache)
