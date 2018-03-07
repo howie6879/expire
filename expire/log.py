@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-
 import logging
 
 import colorama
+
 from colorama import Fore, Style
 
 colorama.init(autoreset=True)

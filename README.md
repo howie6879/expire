@@ -59,6 +59,7 @@ class MySettings(Settings):
         # JsonSerializer, PickleSerializer or StrSerializer
         'serializer': None
     }
+
 @cached(**MySettings.cache, ttl=1000)
 def parse(url, params=None, **kwargs):
     return "{0}: {1}".format(url, 'hello')

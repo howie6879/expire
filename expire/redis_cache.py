@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import redis
 
 from expire.base_cache import BaseCache

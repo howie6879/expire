@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from expire.base_cache import BaseSerializer
 
 try:

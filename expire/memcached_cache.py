@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from pymemcache.client.base import Client
 
 from expire.base_cache import BaseCache

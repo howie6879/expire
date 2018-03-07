@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from functools import wraps
 
 from colorama import Fore

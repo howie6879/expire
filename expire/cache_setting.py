@@ -1,8 +1,14 @@
-#!/usr/bin/env python
-
-
 from expire.memory_cache import MemoryCache
 
+
+class Settings:
+    """Global Settings"""
+    cache = {
+        'cache_class': MemoryCache,
+        'cache_config': {},
+        'serializer': None,
+        'ttl': None
+    }
 
 
 class CacheSetting:
@@ -13,11 +19,7 @@ class CacheSetting:
         - cache_config: basic configuration, just like redis's host port db password etc.
         - serializer: such as JsonSerializer PickleSerializer.
     """
-    cache_dict = {
-        'cache_class': MemoryCache,
-        'cache_config': {},
-        'serializer': None
-    }
+    cache_dict = Settings.cache
 
     def __init__(self, settings=None):
         self.cache = getattr(settings, 'cache', self.cache_dict)

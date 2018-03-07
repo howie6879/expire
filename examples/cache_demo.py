@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Tips for human caches: there are several simple caching schemes we provide for you, and you can use the following ways.
+Tips for Humans：there are several simple caching schemes we provide for you, and you can use the following ways.
     - Use RedisCache,MemcachedCache,MemoryCache class directly
     - Use cached decorator
 """
