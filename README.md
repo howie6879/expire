@@ -1,6 +1,6 @@
 # Expire
 
-![PyPI](https://img.shields.io/pypi/v/expire.svg)
+[![Build Status](https://travis-ci.org/howie6879/expire.svg?branch=master)](https://travis-ci.org/howie6879/expire)  ![PyPI](https://img.shields.io/pypi/v/expire.svg)
 
 ## What is Expire
 
